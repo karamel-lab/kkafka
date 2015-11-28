@@ -22,3 +22,11 @@ attribute "kafka/ulimit",
 :description => "ULimit for the max number of open files allowed",
 :type => 'string'
 
+attribute "kafka/user",
+:display_name => "Username to run kafka as",
+:type => 'string'
+
+attribute "kafka/group",
+:display_name => "Groupname to run kafka as",
+:type => 'string'
+
