@@ -5,9 +5,9 @@
 source 'https://supermarket.chef.io'
 cookbook 'kagent', github: 'karamelchef/kagent-chef', branch: 'master'
 metadata
-cookbook 'kafka', github: 'mthssdrbrg/kafka-cookbook', branch: 'master'
-cookbook 'kzookeeper', github: 'hopshadoop/kzookeeper', branch: 'master'
-cookbook 'zookeeper', github: 'biobankcloud/chef-zookeeper', branch: 'master'
+cookbook 'kafka', github: 'ashansa/kafka-cookbook', branch: 'master'
+cookbook 'kzookeeper', github: 'karamel-lab/kzookeeper', branch: 'master'
+cookbook 'zookeeper', github: 'ashansa/chef-zookeeper', branch: 'master'
 
 cookbook 'java'
 
